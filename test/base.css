@@ -1,0 +1,70 @@
+html {
+    padding-top: 1em;
+    background-color: lightgray;
+}
+
+body {
+    background-color: lavender;
+    border: 1px dashed black;
+
+    font-family: monospace;
+    margin: auto;
+    padding: 1em;
+    max-width: 800px;
+}
+
+table, td, th {
+    font-size: 110%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    background: beige;
+}
+
+th {
+    background: lightblue;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+section {
+    padding: 10px;
+    margin-left: 2em;
+}
+
+h1>a {
+    color: black;
+}
+
+img {
+    margin: 1em;
+    max-width: 700px;
+    border: 1px solid black;
+}
+
+label {
+    margin: 1em;
+    display: block;
+}
+
+code {
+    color: white;
+    background: black;
+    padding: 0 1px;
+}
+code::before, code::after {content: '`'}
+
+iframe {
+    width: 100%;
+    border: none;
+}
+
+dialog {
+  max-width: 100%;
+  font-size: 95%;
+  position: static;
+  padding: 0.5em;
+  margin: initial;
+}
