@@ -1,0 +1,37 @@
+:root {
+  color-scheme: light dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: monospace;
+  color: light-dark(#111, #eee);
+  background: light-dark(#ddd, #222);
+  padding: 1em;
+}
+
+h1 {
+  text-align: center;
+  a {
+    color: light-dark(#111, #eee);
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+body {
+  max-width: 600px;
+  margin: 1em auto;
+  border: 1px solid gray;
+  padding: 10px;
+  background: light-dark(#eee, #111);
+}
+
+img {
+  width: 100%;
+}
